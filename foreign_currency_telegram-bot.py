@@ -7,7 +7,7 @@ import telebot
 from bs4 import BeautifulSoup
 import requests as req
 
-bot = telebot.TeleBot('5847032878:AAEzzIi4Km4UnxXoRaZfQn4YccbykiONlWc')
+bot = telebot.TeleBot('')
 
 main_url = 'https://cbr.ru/'
 resp = req.get(main_url)
